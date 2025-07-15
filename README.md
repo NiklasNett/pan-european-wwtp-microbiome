@@ -14,4 +14,4 @@ This repository contains the shell & R scripts and supplementary Excel files use
 - `filtered_combined_table_PR2_and_SILVA.csv`: Main merged table with taxonomy annotations and abundances
 
 ## Contact
-If you have questions, feel free to contact me via [GitHub](https://github.com/dein-benutzername)
+If you have questions, feel free to contact me via [GitHub](https://github.com/NiklasNett)
