@@ -10,7 +10,7 @@ __________________________
 - `1_Sampling_Period_Plot.r`: Visualizes sampling periods for each WWTP (Wastewater Treatment Plant) based on metadata (Figure 1).
 
 ### 2 Download & Quality Check
-- `2.1_Download.sh`: Batch‑downloads raw .fastq.gz files from ENA (European Nucleotide Archive) based on accession numbers. Input list is a .txt file with ENA Run Accession IDs.
+- `2.1_Download.sh`: Batch‑downloads raw `.fastq.gz` files from ENA (European Nucleotide Archive) based on accession numbers. Input list is a .txt file with ENA Run Accession IDs.
 - `2.2_FastQ_Check.sh`: Performs quality control using FastQC and saves the reports for later inspection. Assesses overall read quality and identifies problematic samples.
 
 ### 3 Assembling & Filtering
