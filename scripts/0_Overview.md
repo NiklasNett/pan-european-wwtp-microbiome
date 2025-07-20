@@ -18,15 +18,18 @@ This folder contains all scripts used in the analysis workflow. Each script is n
 - `4.1_blast_parser.R`: Parses BLAST output and generates count tables
 - `4.2_merge_tables.R`: Merges sample-wise count tables into one unified dataset
 
-### 5 Compound Table
-- `5_compound_table.R`: Combines read counts and taxonomic data for downstream analyses
+### 5 Rarefraction Curve
+- `6_rarefrac.R`: 
 
-### 6 Alpha Diversity & Genus Composition
-- `6_shannon_barplots.R`: Calculates Shannon-Wiener indices and creates genus-level bar plots
+### 6 Compound Table
+- `6_compound_table.R`: Combines read counts and taxonomic data for downstream analyses
 
-### 7 Beta Diversity & Statistical Analyses
-- `7_beta_diversity.R`: Computes Bray-Curtis dissimilarities and performs ordination (PCoA)
-- `7_permanova.R`: Performs PERMANOVA tests and summarizes outputs
+### 7 Alpha Diversity & Genus Composition
+- `7_shannon_barplots.R`: Calculates Shannon-Wiener indices and creates genus-level bar plots
 
-### 8 Seasonal Grouping & Sampling Periods
-- `8_sampling_periods.R`: Assigns samples to meteorological seasons and adds timeline metadata                          |
+### 8 Beta Diversity & Statistical Analyses
+- `8_beta_diversity.R`: Computes Bray-Curtis dissimilarities and performs ordination (PCoA)
+- `8_permanova.R`: Performs PERMANOVA tests and summarizes outputs
+
+### 9 Seasonal Grouping & Sampling Periods
+- `9_sampling_periods.R`: Assigns samples to meteorological seasons and adds timeline metadata                          |
