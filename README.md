@@ -10,11 +10,11 @@ To ensure full reproducibility, this repository includes Bash scripts for data r
 ## Overview of Files
 
 ### Supplementary Excel Files
-- `01_QC_Filtering.R`: Quality control and filtering of raw sequencing reads
-- `02_SortMeRNA_Filtering.sh`: Removes rRNA sequences using SortMeRNA on HPC
-- `03_Taxonomic_Annotation_BLAST.R`: Annotates contigs via BLAST against PR2 and SILVA
-- `04_AlphaDiversity_Plots.R`: Calculates and plots Shannon diversity indices
-- `filtered_combined_table_PR2_and_SILVA.csv`: Main merged table with taxonomy annotations and abundances
+- `Supplementary_Table_S1.xlsx`: Sample Details
+- `Supplementary_Table_S2.xlsx`: Compound Tables
+- `Supplementary_Table_S3.xlsx`: Shannon-Wiener Indices and Relative Abundance Results
+- `Supplementary_Table_S4.xlsx`: PERMANOVA Results
+- `Supplementary_Table_S5.xlsx`: Plant-specific PERMANOVA Results 
 
 ### Used Scripts
 
