@@ -20,7 +20,7 @@ To ensure full reproducibility, this repository includes Bash scripts for data r
 
 
 ### Used data
-- `filtered_combined_table_PR2_and_SILVA.csv.zip`: containing the count table derived from BLAST results used in the diverity analysis scripts
+- `filtered_combined_table_PR2_and_SILVA.csv.zip`: Taxonomic count table generated from BLAST results, used for the diversity analyses presented in the R scripts
 
 ## Contact
 If you have questions, feel free to contact me via [GitHub](https://github.com/NiklasNett)
