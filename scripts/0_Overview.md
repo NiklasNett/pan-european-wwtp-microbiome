@@ -7,7 +7,7 @@ For several scripts, the workflow was run in chunks (e.g., for `2.1_Download.sh`
 __________________________
 
 ### 1 Sampling Period
-- `1_Sampling_Period_Plot.r`: Visualizes sampling periods per WWTP based on metadata (start and end dates); uses custom colors and scales for consistent appearance (Figure 1).
+- `1_Sampling_Period_Plot.r`: Visualizes sampling periods per WWTP based on metadata (Figure 1).
 
 ### 2 Download & Quality Check
 - `2.1_Download.sh`: Batch‑downloads raw .fastq.gz files from ENA (European Nucleotide Archive) based on accession numbers. Input list is a .txt file with ENA Run Accession IDs.
