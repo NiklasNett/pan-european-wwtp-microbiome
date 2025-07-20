@@ -10,22 +10,22 @@ __________________________
 - `1_Sampling_Period_Plot.r`: Visualizes sampling periods per WWTP based on metadata (Start, End); uses custom colors and scales for consistent appearance.
 
 ### 2 Download & Quality Check
-- `2.1_Download.sh`: Downloads raw .fastq.gz files from ENA (European Nucleotide Archive) based on accession numbers; input is a .txt file with ENA Run Accession IDs.
-- `2.2_FastQ_Check.sh`: Performs quality control using FastQC and saves the reports for later inspection.
+- `2.1_Download.sh`: Batch‑downloads raw .fastq.gz files from ENA (European Nucleotide Archive) based on accession numbers. Input list is a .txt file with ENA Run Accession IDs.
+- `2.2_FastQ_Check.sh`: Performs quality control using FastQC and saves the reports for later inspection. Used to assess overall read quality and identify problematic samples.
 
 ### 3 Assembling & Filtering
-- `3.1_Mothur_Contig_Assembly.sh`: 
-- `3.2.1_SortMeRNA_Loop.sh`:
-- `3.2.2_SortMeRNA_Cheops.sh`: 
+- `3.1_Mothur_Contig_Assembly.sh`: Uses Mothur (v1.45.3) to merge overlapping paired-end reads into contigs under stringent error (≤1) and ambiguity (≤1 bp) thresholds. To compensate for non-overlapping reads (likely due to long DNA inserts sequenced at only 150 bp), forward reads were extracted and merged with the Mothur contig output. 
+- `3.2.1_SortMeRNA_Loop.sh`: Automates high throughput rRNA extraction by looping over samples, preparing each FASTA file and submitting the SortMeRNA jobs to the CHEOPS cluster with logging.
+- `3.2.2_SortMeRNA_Cheops.sh`: Runs SortMeRNA (v4.3.4) per sample on the cluster to isolate 16S 23S 18S and 28S rRNA reads thereby enriching marker genes and reducing later BLAST runtime and noise.
 
 ### 4 Taxonomic Assignment (BLASTN)
-- `4.1_Blast_Loop.sh`: 
-- `4.2_Blast_SILVA.sh`: 
-- `4.3_Blast_PR2.sh`: 
+- `4.1_Blast_Loop.sh`: Dispatches BLASTN jobs against the SILVA and PR2 databases using standardized parameters and uniform file naming for consistent output.
+- `4.2_Blast_SILVA.sh`: Runs BLASTN (v2.10.0) of rRNA-enriched reads against SILVA 138 Ref NR.99 retaining the top high-confidence bacterial or archaeal hits for taxonomy assignment.
+- `4.3_Blast_PR2.sh`: Runs BLASTN (v2.10.0) of rRNA-enriched reads against PR2 v4.13.0 retaining the top high-confidence eukaryotic hits for taxonomy assignment.
 
 ### 5 Count Table Generation & Merging
-- `5.1_Blast_Table_Transformation.r`: 
-- `5.2_Merge_Tables.r`: 
+- `5.1_Blast_Table_Transformation.r`: Cleans and standardizes the BLASTN output (taxonomy split, unwanted taxa removed, placeholder ranks filled, targeted renames) and writes per sample CSVs
+- `5.2_Merge_Tables.r`: Combines all cleaned per sample tables and sums read counts per genus to create a unified genus level count matrix as the core dataset for diversity and composition analyses. (stored in the `used_data` directory) 
 - `5.3_Low_Read_Count_Check.r`:
 - `5.4_Sort_Out_Replicates.r`:
 
