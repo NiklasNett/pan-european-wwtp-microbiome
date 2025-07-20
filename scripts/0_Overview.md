@@ -3,7 +3,7 @@
 This folder contains all scripts used in the analysis workflow. Each script is named according to its position in the pipeline.
 
 ### 1 Download and Quality Check
-- `1.1_Download.sh`: Downloads raw `.fastq.gz` files from the ENA based on accession numbers
+- `1.1_Download.sh`: Downloads raw `.fastq.gz` files from the ENA based on accession numbers; as input .txt data was used containing the to be downloaded ENA Run Accession IDs (were split into multiple .txt for faster and parallel downloading; skript was adapted for each run
 - `1.2_FastQ_Check.sh`: Performs quality control using FastQC
 
 ### 2 Preprocessing
