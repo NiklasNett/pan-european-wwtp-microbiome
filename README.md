@@ -19,7 +19,7 @@ To ensure full reproducibility, this repository includes Bash scripts for data r
 ### Used Scripts
 
 
-###
+### Used data
 - `filtered_combined_table_PR2_and_SILVA.csv.zip`: containing the count table derived from BLAST results used in the diverity analysis scripts
 
 ## Contact
