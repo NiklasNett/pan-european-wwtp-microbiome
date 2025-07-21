@@ -41,6 +41,7 @@ Scripts are numerically ordered to reflect their position in the analysis pipeli
 - `8.1_Shannon_Index_Plot_and_Table.r`: Calculates and plots Shannon diversity (Figure 3A)
 - `8.2_Relative_Abundance_Barplots.r`: Stacked barplots of top genera (Figure 3B–E)
 - `8.3_Calculate_Relative_Abundance_Averages.r`: Console-based genus stats viewer
+- `8.4_Linear_Regression.r`: Performs linear regression to detect latitude-associated abundance trends
 - `9.1_PCoA.r`: PCoA ordination with environmental fitting (Figure 3F–I)
 - `9.2_PERMANOVA.r`: Global and plant-specific PERMANOVA models
 
