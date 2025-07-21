@@ -41,9 +41,9 @@ across Europe"*. Detailed information on the contents of each file is provided b
 
 ## Supplementary_Table_S5.xlsx
 ### Plant-specific PERMANOVA Results  
-- Results are listed in separate vertical blocks per WWTP, each covering all four microbial groups
-- Each block displays terms that were individually tested (“by terms”) against a Bray-Curtis dissimilarity matrix, with the tested variable indicated in the top    row
-- The order of terms in the table does not necessarily reflect the order in which they were tested during the actual PERMANOVA runs for each WWTP
+- Results are organized into vertical blocks by WWTP, each containing data for all four microbial communities.
+- Within each block, terms were tested individually (“by terms”) against a Bray–Curtis dissimilarity matrix; the tested variable is indicated in the top row.
+- The order of terms in the table does not necessarily reflect the testing sequence used during PERMANOVA execution.
 - Significant results are highlighted in **yellow**
 
 ---
