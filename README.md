@@ -8,6 +8,8 @@ This study investigated how latitude and season influence microbial community co
 To ensure full reproducibility, this repository includes Bash scripts for data retrieval, preprocessing, and taxonomic assignment, as well as R scripts used for statistical analyses and visualizations.
 For detailed descriptions of individual files, see the Overview.md files in the respective directories (`scripts/` and `supplementary_tables/`).
 
+---
+
 ## Overview of Files
 
 ### Supplementary Excel Files
@@ -15,7 +17,9 @@ For detailed descriptions of individual files, see the Overview.md files in the 
 - `Supplementary_Table_S2.xlsx`: Compound Tables
 - `Supplementary_Table_S3.xlsx`: Shannon-Wiener Indices and Relative Abundance Results
 - `Supplementary_Table_S4.xlsx`: PERMANOVA Results
-- `Supplementary_Table_S5.xlsx`: Plant-specific PERMANOVA Results 
+- `Supplementary_Table_S5.xlsx`: Plant-specific PERMANOVA Results
+
+##
 
 ### Used Scripts
 Scripts are numerically ordered to reflect their position in the analysis pipeline:
@@ -40,6 +44,7 @@ Scripts are numerically ordered to reflect their position in the analysis pipeli
 - `9.1_PCoA.r`: PCoA ordination with environmental fitting (Figure 3F–I)
 - `9.2_PERMANOVA.r`: Global and plant-specific PERMANOVA models
 
+##
 
 ### Used data
 - `filtered_combined_table_PR2_and_SILVA.csv.zip`: Taxonomic count table generated from BLAST results, used for the diversity analyses presented in the R scripts
