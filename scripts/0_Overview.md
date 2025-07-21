@@ -56,6 +56,7 @@ __________________________
 - `8.1_Shannon_Index_Plot_and_Table.r`: Calculates Shannon-Wiener indices per microbial community, WWTP, and sampling date to assess genus-level richness and evenness. Results are saved as CSVs and visualized in a faceted time-series plot with LOESS smoothing (Figure 3A).
 - `8.2_Relative_Abundance_Barplots.r`: Calculates per sample relative genus abundances, selects the top 10 genera per community, and groups remaining taxa as “Others” to generate faceted stacked bar plots (Figures 3B–E). Merges results with Shannon indices into a combined Excel file (Supplementary_Table_S3.xlsx).
 - `8.3_Calculate_Relative_Abundance_Averages.r`: Interactive script allowing the user to select a community, plant and genus. Reports mean relative abundance, standard deviation and number of samples in which the genus was detected (console output only).
+- `8.4_Linear_Regression.r`: Interactive script allowing the user to select a genus and perform linear regression to assess abundance gradients across WWTPs ordered by latitude.
 
 ##
 
