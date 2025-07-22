@@ -9,7 +9,7 @@ For several scripts (e.g., for `2.1_Download.sh` or `3.1_Mothur_Contig_Assembly.
 __________________________
 
 ### 1 Sampling Period
-- `1_Sampling_Period_Plot.r`: Visualizes sampling periods per WWTP (Wastewater Treatment Plant) using collection metadata (Figure 1).
+- `1_Sampling_Period_Plot.r`: Visualizes sampling periods per WWTP (Wastewater Treatment Plant) using collection metadata (Figure 1A).
 
 ##
 
