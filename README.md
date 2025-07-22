@@ -1,9 +1,9 @@
 # “Whole Microbiome Analyses of Wastewater Treatment Plants across Europe” (University of Cologne, 2025)
 
-This repository contains all shell and R scripts, supplementary Excel files, and the genus-level count table derived from BLAST results used in the analyses for my Master’s thesis:  
+This repository contains all scripts, supplementary data tables, and the final genus-level count matrix used in my Master’s thesis:  
 “Whole Microbiome Analyses of Wastewater Treatment Plants across Europe” (University of Cologne, 2025)
 
-This study investigated how latitude and season influence microbial community composition across seven European wastewater treatment plants (WWTPs). Based on metagenomic data from Becsei et al. (2024; DOI: 10.1038/s41467-024-51957-8), which originally focused solely on bacteria, we extended the analysis to include eukaryotic microorganisms, providing a more complete picture of environmental drivers and potential cross-community interactions.
+This study investigated how latitude and season influence microbial community composition across seven European wastewater treatment plants (WWTPs). We built upon the metagenomic dataset from Becsei et al. (2024; DOI: 10.1038/s41467-024-51957-8), which originally focused solely on bacteria, and extended the analysis to include eukaryotic microorganisms, providing a more complete picture of environmental drivers and potential cross-community interactions.
 
 To ensure full reproducibility, this repository includes Bash scripts for data retrieval, preprocessing, and taxonomic assignment, as well as R scripts used for statistical analyses and visualizations.
 For detailed descriptions of individual files, see the Overview.md files in the respective directories (`scripts/` and `supplementary_tables/`).
