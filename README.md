@@ -24,7 +24,7 @@ For detailed descriptions of individual files, see the Overview.md files in the 
 ### Used Scripts
 Scripts are numerically ordered to reflect their position in the analysis pipeline:
 
-- `1_Sampling_Period_Plot.r`: Visualizes sample collection periods per WWTP (Figure 1)
+- `1_Sampling_Period_Plot.r`: Visualizes sample collection periods per WWTP (Figure 1A)
 - `2.1_Download.sh`: Downloads raw FASTQ files from ENA based on accession IDs
 - `2.2_FastQ_Check.sh`: Runs FastQC for read quality inspection
 - `3.1_Mothur_Contig_Assembly.sh`: Assembles contigs and adds non-overlapping forward reads
