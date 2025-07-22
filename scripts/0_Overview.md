@@ -1,7 +1,7 @@
 # Script Overview
 
 This folder contains all scripts used in the analysis workflow for my Master’s Thesis *"Whole Microbiome Analyses of Wastewater Treatment Plants 
-across Europe"*. Scripts are numerically prefixed to reflect execution order.
+across Europe"*. Each script is numerically prefixed to indicate its position within the pipeline. A detailed description of each script is provided below:
 
 ##
 
