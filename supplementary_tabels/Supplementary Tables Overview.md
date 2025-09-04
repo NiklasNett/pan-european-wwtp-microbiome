@@ -1,7 +1,6 @@
 # Supplementary Tables Overview
 
-This folder contains supplementary Excel files generated for my Master’s Thesis *"Whole Microbiome Analyses of Wastewater Treatment Plants 
-across Europe"*. Detailed information on the contents of each file is provided below:
+This folder contains supplementary Excel files generated for my Master’s Thesis *"A Pan-European Whole-Microbiome Study of Wastewater: Prokaryotes, Protists, Fungi, and Metazoa"*. Detailed information on the contents of each file is provided below:
 
 ---
 
